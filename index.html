@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Bundled Notes</title>
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --bg: #ffffff;
+            --bg-secondary: #f8f9fa;
+            --border: #dadce0;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #8ab4f8;
+                --text: #e8eaed;
+                --text-secondary: #9aa0a6;
+                --bg: #202124;
+                --bg-secondary: #303134;
+                --border: #5f6368;
+            }
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: var(--text);
+            background: var(--bg);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+        
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 32px;
+        }
+        
+        h2 {
+            font-size: 1.25rem;
+            margin: 32px 0 16px;
+            color: var(--text);
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        h3 {
+            font-size: 1.1rem;
+            margin: 20px 0 12px;
+            color: var(--text);
+        }
+        
+        p {
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+        
+        ul, ol {
+            margin: 0 0 16px 24px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+        
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .highlight-box {
+            background: var(--bg-secondary);
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .contact-box {
+            background: var(--bg-secondary);
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 24px;
+        }
+        
+        .contact-box p {
+            margin-bottom: 8px;
+        }
+        
+        .contact-box strong {
+            color: var(--primary);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+        
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border: 1px solid var(--border);
+        }
+        
+        th {
+            background: var(--bg-secondary);
+            font-weight: 600;
+        }
+        
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last Updated: January 26, 2026</p>
+        
+        <div class="highlight-box">
+            <p><strong>Bundled Notes</strong> is a note-taking application designed with your privacy in mind. Your notes are stored locally on your device, and we do not have access to your personal content.</p>
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        
+        <h3>1.1 Data Stored Locally on Your Device</h3>
+        <p>Bundled Notes stores the following data exclusively on your device:</p>
+        <ul>
+            <li><strong>Notes and Content:</strong> Text notes, checklists, attachments, and voice recordings you create</li>
+            <li><strong>Tags and Organization:</strong> Labels, categories, and organizational structure</li>
+            <li><strong>Reminders:</strong> Scheduled reminder times for your notes</li>
+            <li><strong>App Preferences:</strong> Theme settings, layout preferences, font choices, and sorting options</li>
+            <li><strong>Widget Configurations:</strong> Home screen widget settings and displayed notes</li>
+        </ul>
+        <p>This data is never transmitted to our servers and remains entirely under your control.</p>
+
+        <h3>1.2 Data Collected by Third-Party Services</h3>
+        <p>To provide our services and support app development, we integrate the following third-party services:</p>
+        
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Purpose</th>
+                <th>Data Collected</th>
+            </tr>
+            <tr>
+                <td>Google AdMob</td>
+                <td>Display advertisements (free users)</td>
+                <td>Advertising ID, device info, ad interaction data</td>
+            </tr>
+            <tr>
+                <td>RevenueCat</td>
+                <td>Subscription management</td>
+                <td>Anonymous user ID, purchase history</td>
+            </tr>
+            <tr>
+                <td>Google Play Billing</td>
+                <td>Process in-app purchases</td>
+                <td>Transaction data via Google Play</td>
+            </tr>
+        </table>
+
+        <h2>2. Permissions We Request</h2>
+        <p>Bundled Notes requests the following permissions to provide its features:</p>
+        <ul>
+            <li><strong>Notifications:</strong> To deliver reminder alerts for your notes</li>
+            <li><strong>Exact Alarms:</strong> To schedule precise reminder notifications</li>
+            <li><strong>Microphone:</strong> To record voice notes (only when you initiate recording)</li>
+            <li><strong>Internet:</strong> Required for displaying ads and processing subscriptions</li>
+            <li><strong>Boot Completed:</strong> To restore scheduled reminders after device restart</li>
+            <li><strong>Billing:</strong> To process subscription purchases through Google Play</li>
+        </ul>
+
+        <h2>3. Google Ads and Advertising ID</h2>
+        <p>For users on the free tier, we display advertisements through Google AdMob. This involves:</p>
+        <ul>
+            <li><strong>Advertising ID:</strong> A resettable identifier used to serve relevant ads</li>
+            <li><strong>Ad Personalization:</strong> Subject to your consent preferences managed via Google's User Messaging Platform (UMP)</li>
+            <li><strong>Ad-Free Option:</strong> Pro subscribers do not see any advertisements</li>
+        </ul>
+        <p>You can reset your Advertising ID or opt out of personalized ads through your device's Settings &gt; Google &gt; Ads.</p>
+        <p>For more information, please review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+
+        <h2>4. RevenueCat and Subscription Data</h2>
+        <p>We use RevenueCat to manage Pro subscriptions. RevenueCat:</p>
+        <ul>
+            <li>Creates an anonymous app user ID (not linked to personal information)</li>
+            <li>Processes subscription status and entitlements</li>
+            <li>Does not access your note content or personal data</li>
+        </ul>
+        <p>For details, see <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat's Privacy Policy</a>.</p>
+
+        <h2>5. Data Storage and Deletion</h2>
+        
+        <h3>5.1 Local Storage</h3>
+        <p>All your notes, preferences, and app data are stored locally on your device using:</p>
+        <ul>
+            <li><strong>Room Database:</strong> For notes, tags, and structured data</li>
+            <li><strong>DataStore:</strong> For user preferences and settings</li>
+        </ul>
+
+        <h3>5.2 Deleting Your Data</h3>
+        <p>You have complete control over your data:</p>
+        <ul>
+            <li><strong>Individual Notes:</strong> Delete through the app's trash feature (permanently removed after 30 days or manually)</li>
+            <li><strong>All App Data:</strong> Uninstalling the app removes all local data</li>
+            <li><strong>Clear App Data:</strong> Use Android Settings &gt; Apps &gt; Bundled Notes &gt; Clear Data</li>
+            <li><strong>Subscription Data:</strong> Contact us to request deletion of RevenueCat records</li>
+        </ul>
+
+        <h3>5.3 Data Backup</h3>
+        <p>Your device may back up app data through Android's backup service. This is controlled by your device settings and Google account preferences.</p>
+
+        <h2>6. Data Security</h2>
+        <p>We implement the following security measures:</p>
+        <ul>
+            <li><strong>Local Storage:</strong> Data stored on-device is protected by Android's app sandboxing</li>
+            <li><strong>App Lock:</strong> Optional biometric authentication to protect access to your notes</li>
+            <li><strong>Note Locking:</strong> Individual notes can be locked for additional privacy</li>
+            <li><strong>Encrypted Connections:</strong> All network communications use HTTPS</li>
+            <li><strong>No Cloud Storage:</strong> We do not store your notes on external servers</li>
+        </ul>
+
+        <h2>7. Children's Privacy</h2>
+        <p>Bundled Notes is not directed at children under 13 years of age. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us immediately, and we will take steps to delete it.</p>
+        <p>For users under 18, we recommend parental guidance when using any application that displays advertisements.</p>
+
+        <h2>8. Third-Party Services</h2>
+        <p>Our app integrates with third-party services that have their own privacy policies:</p>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play Services</a></li>
+            <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google AdMob</a></li>
+            <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat</a></li>
+        </ul>
+        <p>We encourage you to review these policies to understand how your data may be processed by these services.</p>
+
+        <h2>9. Your Rights</h2>
+        <p>Depending on your jurisdiction, you may have the following rights:</p>
+        <ul>
+            <li><strong>Access:</strong> Request information about data collected about you</li>
+            <li><strong>Deletion:</strong> Request deletion of your data</li>
+            <li><strong>Opt-Out:</strong> Opt out of personalized advertising</li>
+            <li><strong>Portability:</strong> Export your notes from the app</li>
+        </ul>
+        <p>To exercise these rights, please contact us using the information below.</p>
+
+        <h2>10. Legal Compliance</h2>
+        <p>This privacy policy is designed to comply with:</p>
+        <ul>
+            <li><strong>GDPR:</strong> General Data Protection Regulation (EU)</li>
+            <li><strong>CCPA:</strong> California Consumer Privacy Act</li>
+            <li><strong>Google Play Requirements:</strong> Developer Program Policies</li>
+        </ul>
+        <p>We may disclose information if required by law or to protect our legal rights.</p>
+
+        <h2>11. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last Updated" date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+        <p>For significant changes, we will provide notice through the app or other appropriate means.</p>
+
+        <h2>12. Contact Us</h2>
+        <p>If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:</p>
+        
+        <div class="contact-box">
+            <p><strong>App Name:</strong> Bundled Notes</p>
+            <p><strong>Developer:</strong> Sumit Kahar</p>
+            <p><strong>Email:</strong> <a href="mailto:sumitkahar073@gmail.com">sumitkahar073@gmail.com</a></p>
+            <p><strong>Package:</strong> io.github.bundled</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Bundled Notes. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
